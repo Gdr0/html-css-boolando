@@ -76,8 +76,8 @@ main {
 .col {
   width: calc((100% / 3) - 10px);
   position: relative;
-  background-color: grey;
-  margin: 0 5px;
+  background-color: white;
+  margin: 0 5px 90px;
 }
 .img_prod img {
   width: 100%;
@@ -134,4 +134,20 @@ main {
 
 .originale {
   color: red;
+}
+
+.img_prod .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.img_prod:hover .overlay {
+  opacity: 1;
 }
