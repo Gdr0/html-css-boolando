@@ -3,18 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* header */
 .box_header {
   display: flex;
   justify-content: center;
   background-color: violet;
+  position: fixed;
+  z-index: 500;
+  width: 100%;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  background-color: violet;
-  /* debug */
   width: 80%;
+}
+.top {
+  background-color: violet;
   height: 50px;
 }
 
@@ -47,4 +52,22 @@ a {
   text-decoration: none;
   color: white;
   font-weight: 600;
+}
+/* header */
+
+/* main */
+main {
+  background-color: brown;
+}
+/* row1 */
+.box_row {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 150px 0;
+}
+.row {
+  background-color: white;
+  min-height: 600px;
 }
