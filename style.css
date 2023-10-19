@@ -85,7 +85,7 @@ main {
 .img_prod {
   position: relative;
 }
-.fa-heart {
+div > .fa-heart {
   color: black;
   position: absolute;
   right: 0;
