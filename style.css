@@ -85,7 +85,7 @@ main {
 .img_prod {
   position: relative;
 }
-.img_prod .fa-heart {
+.fa-heart {
   color: black;
   position: absolute;
   right: 0;
@@ -96,9 +96,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.img_prod:hover .fa-heart {
-  color: red;
 }
 
 .label {
